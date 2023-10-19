@@ -1,0 +1,766 @@
+
+
+body{background-color:#FfF;
+	border-radius:10px;}
+.headTHPAL{background-image:url("img/head.gif");}
+
+h1{ font-size:90px;text-align:center;background-color:#0d9;color:#FFF;font-family:arial;width:100%;}
+
+h2{ font-size:3vw;text-align:Justify;background-color:whitesmoke;color:#000;font-family:arial;max-width:100%;border-radiuse:10px;width:100%;height:auto;padding:2px;}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.div1{background-color:#2B3A55;color:#EAFDFC;font-family:arial;padding:1%;margin-left:-8;margin-right:-8;
+	}
+
+.div1{background-color:#2B3A55;color:#EAFDFC;font-family:arial;padding:1%;margin-left:-8;margin-right:-8;}
+
+.div2 {display:flex;flex-Direction:row;}
+.div2 > .div3{flex:0%;flex-wrap:;background:#DDFCAC;padding:1%;
+		margin-left:-0.6%;margin-right:-0.6%;color:#CFFDE1;
+			text-alignment:center;}
+.div2 > .div3 > .span1{Background:#DDFCAC; padding:3%; border-radius:3px;color:#CFFDE1;font-family:arial;}
+
+.div2 > .div3:hover{Background:#C69749; padding:3%; border-radius:3px;color:#FFE;
+			cursor:pointer;}
+
+
+
+
+
+
+
+/*---------------------Dropdown Area ----- */
+
+
+.dropdownbase{
+  min-height:0;
+  display:wrap;
+  justify-content:center;
+  background:#222;
+  border-radius:5px;
+  align-items:center;word-spacing:5px;
+  font-size:.5vw;
+}
+
+.dropdownbase >.dropdown{
+  display: inline-block;
+  position: relative;
+    font-size:1.5vw;
+}
+
+button{
+  border:none;
+  border-radius:0px;
+  padding:10%;
+  font-size:-20rem;
+  cursor:pointer;
+  margin-left:10;
+  background:none;
+  color:whitesmoke;
+  font-size:1.1vw;
+
+}
+
+button:hover{color:#098;
+	margin-left:10;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#ddd;
+  border-radius:0px;
+  margin-left:-5;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;background-color:#444;
+  border-radius:3%;background-opacity:50%;}
+
+.dropdown-options a {
+  display:block;
+ direction:column;
+  color:#dedede;
+  padding: 1px;
+  font-size: 11;
+  text-decoration: none;
+  padding:3px 50px;
+  tex-align:center;font-family:arial;
+	
+}
+
+.dropdown-options a:hover {
+  color: #FFF;
+  background-color: #222;
+  border-radius:0px;
+	
+}
+
+.content1{background:#eee;display:flex;border-radius:10px;}
+/*---------------------Dropdown Area End----- */
+
+.footermain{ background:red;color:white;font-family:arial;}
+.footermain > div {Padding:1%; display:flex;}
+
+
+.divgil1{background:; color:#000; font-family:calibri;padding:1%;max-width:100%;font-size:1.2vw;}
+
+.divgil2{max-width:35%;background:Lightgray;border-radius:5px;text-align:center; color:#000; font-family:calibri;padding:1%;}
+
+.divgil3{background:Whitesmoke;border-radius:5px;text-align:left; color:#000; font-family:calibri;padding:1%;font-size:1.2vw;max-width:100%;}
+
+
+.gildiv2{background:#000;}
+
+
+/*--------------------------Drop Down------------------*/
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: none;
+  outline: none;
+  max-width:100%;
+  font-size:1.8vw;
+  transition: 0.4s;
+}
+
+.Mission {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  max-width: 100%;
+  border: none;
+  width: 100%;
+  text-align: none;
+  outline: none;
+  font-size: 1.8vw;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+/*--------------------------Drop Down End------------------*/
+
+
+/*--------------------------Tabs------------------*/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color:#034;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: ##039;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:green;
+  font-size:2vw;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+  font-size:1.5vw;
+}
+/*--------------------------Tabs End------------------*/
+
+
+/*--------------------------Images------------------*/
+
+.container {
+  position: relative;
+  width: 100%;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  opacity:90%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*--------------------------End Images------------------*/
+
+
+
+
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content1 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content3 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal4 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content4 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close4 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal5 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content5 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close5 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal6 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content6 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close6 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close6:hover,
+.close6:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal7 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content7 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close7 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close7:hover,
+.close7:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal8 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content8 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close8 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close8:hover,
+.close8:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal9 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content9 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close9 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close9:hover,
+.close9:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+/*--------------------Modal -----------------------*/
+
+/* The Modal (background) */
+.modal10 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 45px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content10 {
+  background-color: #eee;
+  border-radius:2%;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close10 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close10:hover,
+.close10:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------------- End Modal -----------------------*/
+
+
+
